@@ -20,3 +20,9 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
+Route::get('/MY_WORKS', function () {
+    return view('MY_WORKS');
+});
+Route::get('/Contacts', function () {
+    return view('contacts');
+});

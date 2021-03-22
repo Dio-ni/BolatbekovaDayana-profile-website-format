@@ -55,3 +55,4 @@ Route::post('blog/create', [BlogController::class, 'store'])->name('add-blog');
 //Test
 
 Route::get('post/{id}', [BlogController::class, 'get_post']);
+
